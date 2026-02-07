@@ -9,19 +9,21 @@ const MOCK_SERMONS: Sermon[] = [
     title: 'The Prophetic Harvest',
     speaker: 'Pastor Ezekiel',
     date: 'June 02, 2024',
-    thumbnail: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800',
+    thumbnail: '/images/sermons/crusade1.jpeg',
     series: 'Harvest Season',
-    description: 'Understanding the spiritual timing for your breakthrough and the power of consistent seed-sowing.',
-    videoId: 'dQw4w9WgXcQ' // Placeholder ID
+    description:
+      'Understanding the spiritual timing for your breakthrough and the power of consistent seed-sowing.',
+    videoId: 'dQw4w9WgXcQ'
   },
   {
     id: '2',
     title: 'Impact Without Borders',
     speaker: 'Pastor Ezekiel',
     date: 'May 26, 2024',
-    thumbnail: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80&w=800',
+    thumbnail: '/images/sermons/crusade.jpeg',
     series: 'International Mandate',
-    description: 'How to expand your influence and fulfill your God-given purpose on a global stage.',
+    description:
+      'How to expand your influence and fulfill your God-given purpose on a global stage.',
     videoId: 'dQw4w9WgXcQ'
   },
   {
@@ -29,9 +31,10 @@ const MOCK_SERMONS: Sermon[] = [
     title: 'Walking in Dominion',
     speaker: 'Pastor Ezekiel',
     date: 'May 19, 2024',
-    thumbnail: 'https://images.unsplash.com/photo-1478147427282-58a87a120781?auto=format&fit=crop&q=80&w=800',
+    thumbnail: '/images/sermons/crusade2.jpeg',
     series: 'Kingdom Power',
-    description: 'Rediscovering your authority in Christ and reclaiming lost territories in your personal life.',
+    description:
+      'Rediscovering your authority in Christ and reclaiming lost territories in your personal life.',
     videoId: 'dQw4w9WgXcQ'
   }
 ];
