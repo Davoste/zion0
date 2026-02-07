@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-import AnnouncementTicker from './components/AnnouncementTicker';
 import Hero from './components/Hero';
 import ScriptureSection from './components/ScriptureSection';
 import SermonList from './components/SermonList';
@@ -20,21 +19,21 @@ const App: React.FC = () => {
     switch (activeTab) {
       case 'home':
         return (
-          <div className="mt-8">
+          <>
             <Hero />
             <ScriptureSection />
             <SermonList />
             <EventCalendar />
             <Gallery />
-          </div>
+          </>
         );
       case 'sermons':
-        return <div className="mt-10"><SermonList /></div>;
+        return <div className="pt-20"><SermonList /></div>;
       case 'events':
-        return <div className="mt-10"><EventCalendar /></div>;
+        return <div className="pt-20"><EventCalendar /></div>;
       case 'about':
         return (
-          <div className="pt-40 pb-24 max-w-4xl mx-auto px-4">
+          <div className="pt-32 pb-24 max-w-4xl mx-auto px-4">
             <h1 className="text-5xl font-bold mb-12 serif text-center text-blue-900">Our Story</h1>
             <div className="aspect-video mb-12 rounded-3xl overflow-hidden shadow-2xl border-b-8 border-red-600">
               <img src="https://images.unsplash.com/photo-1544427928-142ca20488d5?auto=format&fit=crop&q=80&w=1200" alt="Church" className="w-full h-full object-cover" />
@@ -64,7 +63,7 @@ const App: React.FC = () => {
         );
       case 'give':
         return (
-          <div className="pt-40 pb-24 min-h-screen bg-slate-50 flex flex-col items-center px-4">
+          <div className="pt-32 pb-24 min-h-screen bg-slate-50 flex flex-col items-center px-4">
              <div className="max-w-2xl w-full bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-200 border-t-8 border-red-600">
                 <h1 className="text-4xl font-bold mb-4 serif text-center text-blue-900">Kingdom Investment</h1>
                 <p className="text-slate-500 text-center mb-12 font-medium">
@@ -108,7 +107,6 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col selection:bg-red-600 selection:text-white">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <AnnouncementTicker />
       
       <main className="flex-grow">
         {renderContent()}
