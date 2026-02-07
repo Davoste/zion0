@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-
+import AnnouncementTicker from './components/AnnouncementTicker';
 import Hero from './components/Hero';
 import ScriptureSection from './components/ScriptureSection';
 import SermonList from './components/SermonList';
