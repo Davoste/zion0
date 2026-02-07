@@ -5,8 +5,8 @@ const Gallery: React.FC = () => {
     { url: '/images/crusade.jpeg', title: 'Community Fellowship' },
     { url: '/images/service.jpeg', title: 'Sunday Worship' },
     { url: '/images/service1.jpeg', title: 'Youth Ministry' },
-    { url: '/images/logozion.jpg', title: 'Global Impact' },
-    { url: '/images/church.jpeg', title: 'Zion Sanctuary' },
+    { url: '/images/logozion.png', title: 'Global Impact' },
+    { url: '/images/curch.jpeg', title: 'Zion Sanctuary' },
     { url: '/images/pasi.jpeg', title: 'Leadership Meeting' }
   ];
 
