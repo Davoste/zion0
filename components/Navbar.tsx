@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+
 
 interface NavbarProps {
   activeTab: string;
