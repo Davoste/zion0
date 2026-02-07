@@ -11,7 +11,7 @@ const MOCK_EVENTS: ChurchEvent[] = [
     time: '10:00 AM - 1:00 PM',
     location: 'Zion Harvest Pool / Mathare Area',
     category: 'Service',
-    image: 'https://images.unsplash.com/photo-1544427928-142ca20488d5?auto=format&fit=crop&q=80&w=800'
+    image: '/images/crusade1.jpeg',
   },
   {
     id: '2',
