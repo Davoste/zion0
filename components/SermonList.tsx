@@ -9,7 +9,7 @@ const MOCK_SERMONS: Sermon[] = [
     title: 'The Prophetic Harvest',
     speaker: 'Pastor Ezekiel',
     date: 'June 02, 2024',
-    thumbnail: '/images/sermons/crusade1.jpeg',
+    thumbnail: '/images/crusade1.jpeg',
     series: 'Harvest Season',
     description:
       'Understanding the spiritual timing for your breakthrough and the power of consistent seed-sowing.',
@@ -20,7 +20,7 @@ const MOCK_SERMONS: Sermon[] = [
     title: 'Impact Without Borders',
     speaker: 'Pastor Ezekiel',
     date: 'May 26, 2024',
-    thumbnail: '/images/sermons/crusade.jpeg',
+    thumbnail: '/images/crusade.jpeg',
     series: 'International Mandate',
     description:
       'How to expand your influence and fulfill your God-given purpose on a global stage.',
@@ -31,7 +31,7 @@ const MOCK_SERMONS: Sermon[] = [
     title: 'Walking in Dominion',
     speaker: 'Pastor Ezekiel',
     date: 'May 19, 2024',
-    thumbnail: '/images/sermons/crusade2.jpeg',
+    thumbnail: '/images/crusade2.jpeg',
     series: 'Kingdom Power',
     description:
       'Rediscovering your authority in Christ and reclaiming lost territories in your personal life.',
