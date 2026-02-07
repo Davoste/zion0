@@ -11,7 +11,7 @@ const MOCK_EVENTS: ChurchEvent[] = [
     time: '10:00 AM - 1:00 PM',
     location: 'Zion Harvest Pool / Mathare Area',
     category: 'Service',
-    image: '/images/crusade1.jpeg',
+    image: '/images/batism0.jpeg',
   },
   {
     id: '2',
@@ -20,7 +20,7 @@ const MOCK_EVENTS: ChurchEvent[] = [
     time: '4:00 PM - 8:00 PM',
     location: 'Mathare Grounds No. 10',
     category: 'Community',
-    image: 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=800'
+    image: '/images/service.jpeg',
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ const MOCK_EVENTS: ChurchEvent[] = [
     time: '11:00 AM',
     location: 'ZHIC Main Sanctuary',
     category: 'Service',
-    image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800'
+    image: '/images/pasi1.jpeg',
   }
 ];
 
