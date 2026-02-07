@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-import AnnouncementTicker from './components/AnnouncementTicker';
+
 import Hero from './components/Hero';
 import ScriptureSection from './components/ScriptureSection';
 import SermonList from './components/SermonList';
@@ -108,7 +108,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col selection:bg-red-600 selection:text-white">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <AnnouncementTicker />
+     
       
       <main className="flex-grow">
         {renderContent()}
