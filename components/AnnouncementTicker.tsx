@@ -4,11 +4,11 @@ import { Sparkles, Radio, Zap } from 'lucide-react';
 
 const AnnouncementTicker: React.FC = () => {
   const items = [
-    { icon: <Zap size={14} />, text: "PROPHETIC DECREE: 2024 IS OUR YEAR OF UNLIMITED POSSIBILITIES" },
+    { icon: <Zap size={14} />, text: "PROPHETIC DECREE: 2026 IS OUR YEAR OF UNLIMITED POSSIBILITIES" },
     { icon: <Radio size={14} />, text: "NEXT LIVE SERVICE: SUNDAY AT 8:00 AM EAT" },
     { icon: <Sparkles size={14} />, text: "WALKING IN DOMINION — NEW SERMON SERIES OUT NOW" },
     { icon: <Zap size={14} />, text: "MID-WEEK POWER & REVIVAL EVERY WEDNESDAY 5:30 PM" },
-    { icon: <Radio size={14} />, text: "JOIN OUR GLOBAL IMPACT MISSIONS — SIGN UP TODAY" },
+    { icon: <Radio size={14} />, text: "JOIN OUR IMPACT MISSIONS — JOIN TODAY" },
   ];
 
   // Repeat items to ensure smooth infinite loop
