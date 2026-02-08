@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-20">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-3 mb-8">
-              <div className=" rounded-full">
+              <div className=" w-10 h-10 rounded-full overflow-hidden">
                 <img
                   src="/images/logozion.png"
                   alt="ZHIC"
@@ -34,19 +34,16 @@ const Footer: React.FC = () => {
               <li>
                 <span className="block text-white font-bold mb-1">Sunday Morning</span>
                 07:00 AM - 08:00 AM — Morning Glory<br />
-                08:00 AM - 09:00 AM — Praise and Worship
-                09:00 AM - 10:00 AM — Bible study
-                10:00 AM - 10:45 AM — Praise and Worship
-                10:45 AM - 11:10 AM — Testimony
-                11:10 AM - 11:30 AM — News
-                11:30 AM - 11:45 AM — Worship
-                11:45 AM - 12:30 PM — Preaching
-              </li>
-               <li>
-                <span className="block text-white font-bold mb-1">Sunday Morning</span>
-                10:45 AM - 11:10 AM — Testimony
-                11:10 AM - 11:30 AM — News
-                11:30 AM - 11:45 AM — Worship
+                08:00 AM - 09:00 AM — Praise and Worship <br />
+                09:00 AM - 10:00 AM — Bible study <br />
+                10:00 AM - 10:45 AM — Praise and Worship <br />
+                10:45 AM - 11:10 AM — Testimony <br />
+                11:10 AM - 11:30 AM — News <br />
+                11:30 AM - 11:45 AM — Worship <br />
+                11:45 AM - 12:30 PM — Preaching <br />
+                10:45 AM - 11:10 AM — Testimony <br />
+                11:10 AM - 11:30 AM — News <br />
+                11:30 AM - 11:45 AM — Worship <br />
                 11:45 AM - 12:30 PM — Preaching
               </li>
               <li>
