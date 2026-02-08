@@ -125,6 +125,8 @@ const App: React.FC = () => {
 
 default:
   return <Hero />;
+         }
+  };
 
 
   return (
