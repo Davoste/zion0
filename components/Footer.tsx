@@ -10,7 +10,11 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-3 mb-8">
               <div className="bg-red-600 p-1.5 rounded-full">
-                <Cross size={24} className="text-white" />
+                <img
+                  src="/images/logozion.png"
+                  alt="Pastor"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="text-2xl font-black tracking-tighter serif uppercase">ZHIC <span className="text-red-500">Nairobi</span></span>
             </div>
@@ -51,7 +55,7 @@ const Footer: React.FC = () => {
               <li><a href="#" className="hover:text-red-500 transition-colors">Our Vision</a></li>
               <li><a href="#" className="hover:text-red-500 transition-colors">Ministries</a></li>
               <li><a href="#" className="hover:text-red-500 transition-colors">Missions</a></li>
-              <li><a href="#" className="hover:text-red-500 transition-colors">Prayer Requests</a></li>
+              <li><a href="https://wa.me/+254725517478" className="hover:text-red-500 transition-colors">Prayer Requests</a></li>
               <li><a href="#" className="hover:text-red-500 transition-colors">ZHIC Kids</a></li>
             </ul>
           </div>
@@ -65,11 +69,12 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-red-600" />
-                +254 725 517 478
+                <a href="tel:+254725517478">+254 725 517 478</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-red-600" />
-                ezemwima69@gmail.com
+                <a href="mailto:ezemwima69@gmail.com">ezemwima69@gmail.com</a>
+                
               </li>
             </ul>
           </div>
@@ -79,7 +84,9 @@ const Footer: React.FC = () => {
           <p className="text-slate-500 text-xs font-medium">
             © 2026 Zion Harvest International Church. 
           </p>
-          <a href = "https://davoste.github.io/">By Steve</a>
+          <p className="text-slate-500 text-xs font-medium">
+            <a href = "https://davoste.github.io/">Made By Steve</a>
+          </p>
           <div className="flex gap-8">
             <button className="text-slate-500 hover:text-white text-xs transition-colors">Terms</button>
             <button className="text-slate-500 hover:text-white text-xs transition-colors">Privacy</button>
