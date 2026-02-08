@@ -1,32 +1,57 @@
-
 import React from 'react';
 import { Quote } from 'lucide-react';
 
+const scriptures = [
+  {
+    sw: 'Mathayo 28:19–20',
+    swText:
+      '“Basi, enendeni, mkawafanye mataifa yote kuwa wanafunzi, mkiwabatiza kwa jina la Baba, na Mwana, na Roho Mtakatifu; na kuwafundisha kuyashika yote niliyowaamuru ninyi; na tazama, mimi nipo pamoja nanyi siku zote, hata ukamilifu wa dahari."',
+    enText:
+      '“Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.”',
+  },
+  {
+    sw: 'Kumbukumbu la Torati 28:1',
+    swText:
+      '“Itakuwa utakaposikia sauti ya BWANA, Mungu wako, kwa bidii...”',
+    enText:
+      '“And it shall come to pass, if thou shalt hearken diligently...”',
+  },
+  {
+    sw: 'Kumbukumbu la Torati 28:2',
+    swText:
+      '“Na baraka hizi zote zitakujilia na kukupata...”',
+    enText:
+      '“And all these blessings shall come on thee...”',
+  },
+];
+
 const ScriptureSection: React.FC = () => {
   return (
-    <section className="py-20 bg-blue-900 text-white relative overflow-hidden">
-      <div className="absolute top-0 right-0 p-10 opacity-10 pointer-events-none">
+    <section className="py-20 bg-blue-900 text-white relative">
+      <div className="absolute top-0 right-0 p-10 opacity-10">
         <Quote size={200} />
       </div>
-      <div className="max-w-5xl mx-auto px-4 text-center">
-        <h2 className="text-red-500 text-sm font-black uppercase tracking-[0.3em] mb-6">The Great Commission</h2>
-        <div className="space-y-12">
-          <div className="space-y-4">
-            <p className="text-2xl md:text-3xl italic serif leading-relaxed">
-              "Basi, enendeni, mkawafanye mataifa yote kuwa wanafunzi, mkiwabatiza kwa jina la Baba, na Mwana, na Roho Mtakatifu; na kuwafundisha kuyashika yote niliyowaamuru ninyi; na tazama, mimi nipo pamoja nanyi siku zote, hata ukamilifu wa dahari."
-            </p>
-            <p className="text-red-400 font-bold tracking-widest uppercase text-xs">Biblia | Mathayo 28:19-20</p>
-          </div>
-          
-          <div className="w-24 h-px bg-white/20 mx-auto"></div>
 
-          <div className="space-y-4">
-            <p className="text-xl md:text-2xl font-light leading-relaxed text-blue-100">
-              "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
+      <h2 className="text-center text-red-500 text-sm font-black uppercase tracking-[0.3em] mb-10">
+        Scripture & Promise
+      </h2>
+
+      <div className="flex gap-6 overflow-x-auto px-6 snap-x snap-mandatory scrollbar-hide">
+        {scriptures.map((s, i) => (
+          <div
+            key={i}
+            className="min-w-[85%] md:min-w-[60%] bg-white/5 backdrop-blur rounded-3xl p-8 snap-center"
+          >
+            <p className="text-2xl italic serif mb-4">{s.swText}</p>
+            <p className="text-xs text-red-400 uppercase tracking-widest mb-6">
+              Biblia | {s.sw}
             </p>
-            <p className="text-slate-400 font-bold tracking-widest uppercase text-xs">Matthew 28:19-20 (KJV)</p>
+
+            <p className="text-xl text-blue-100 font-light leading-relaxed">
+              {s.enText}
+            </p>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   );
