@@ -65,41 +65,47 @@ const App: React.FC = () => {
       case 'give':
         return (
           <div className="pt-40 pb-24 min-h-screen bg-slate-50 flex flex-col items-center px-4">
-             <div className="max-w-2xl w-full bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-200 border-t-8 border-red-600">
-                <h1 className="text-4xl font-bold mb-4 serif text-center text-blue-900">Kingdom Investment</h1>
-                <p className="text-slate-500 text-center mb-12 font-medium">
-                  "Honor the LORD with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing."
-                </p>
-                
-                <div className="grid grid-cols-3 gap-4 mb-8">
-                  {['KSh 1k', 'KSh 5k', 'KSh 10k'].map(amount => (
-                    <button key={amount} className="py-4 border-2 border-slate-100 rounded-2xl font-black text-blue-900 hover:border-red-600 hover:bg-slate-50 transition-all uppercase tracking-tighter">
-                      {amount}
-                    </button>
-                  ))}
+          <div className="max-w-2xl w-full bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-200 border-t-8 border-red-600">
+            
+            <h1 className="text-4xl font-bold mb-4 serif text-center text-blue-900">
+              Kingdom Investment
+            </h1>
+        
+            <p className="text-slate-500 text-center mb-10 font-medium">
+              “Honor the LORD with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing.”
+            </p>
+        
+            {/* Suggested amounts (optional guidance) */}
+            <div className="grid grid-cols-3 gap-4 mb-10">
+              {['KSh 1,000', 'KSh 5,000', 'KSh 10,000'].map(amount => (
+                <div
+                  key={amount}
+                  className="py-4 border-2 border-slate-100 rounded-2xl font-black text-blue-900 text-center bg-slate-50 uppercase tracking-tighter"
+                >
+                  {amount}
                 </div>
-
-                <div className="relative mb-8">
-                  <span className="absolute left-4 top-1/2 -translate-y-1/2 text-blue-900 font-black">KSh</span>
-                  <input 
-                    type="number" 
-                    placeholder="Enter Other Amount" 
-                    className="w-full pl-16 pr-4 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:outline-none focus:border-blue-900 transition-all font-black text-blue-900"
-                  />
-                </div>
-
-                <button className="w-full py-5 bg-blue-900 text-white rounded-xl font-black text-lg hover:bg-red-600 transition-all shadow-xl uppercase tracking-widest">
-                  Secure Giving
-                </button>
-
-                <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
-                   <p className="text-center text-[10px] font-bold text-blue-900 uppercase tracking-widest">
-                     M-PESA Paybill: 123456 | Account: TITHES/OFFERING
-                   </p>
-                </div>
-             </div>
+              ))}
+            </div>
+        
+            {/* Payment Instructions */}
+            <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 text-center space-y-4">
+              <p className="text-sm font-bold text-blue-900 uppercase tracking-widest">
+                Give via M-PESA / Co-operative Bank
+              </p>
+        
+              <div className="text-blue-900 font-black text-lg space-y-1">
+                <p>PayBill Number: <span className="text-red-600">400200</span></p>
+                <p>Account Number: <span className="text-red-600">1121100</span></p>
+              </div>
+        
+              <p className="text-xs font-bold text-slate-600 uppercase tracking-wider">
+                Business Name: Zion Harvest International Church
+              </p>
+            </div>
+        
           </div>
-        );
+        </div>
+
       default:
         return <Hero />;
     }
