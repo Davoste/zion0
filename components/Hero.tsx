@@ -32,12 +32,10 @@ const Hero: React.FC = () => {
           </button>
           <button className="w-full sm:w-auto px-10 py-5 bg-blue-900/50 backdrop-blur-md text-white border-2 border-white/30 rounded-md font-black uppercase tracking-widest hover:bg-white/10 transition-all flex items-center justify-center">
             <Play className="mr-2 w-5 h-5 fill-white" />
-            Watch Live
+            <a href="https://www.youtube.com/@ezekielmwita2226">Watch Live </a>
           </button>
         </div>
-      </div>
-
-      {/* Service Schedule */}
+        {/* Service Schedule */}
       <div className="absolute bottom-12 left-0 w-full flex justify-center px-4">
         <div className="bg-white/10 backdrop-blur-xl p-6 rounded-2xl border border-white/20 flex gap-12 text-white">
           <div>
@@ -51,6 +49,9 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
+      </div>
+
+      
     </section>
   );
 };
