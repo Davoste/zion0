@@ -29,8 +29,14 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-400 text-sm">
               <li>
                 <span className="block text-white font-bold mb-1">Sunday Morning</span>
-                08:00 AM — Morning Glory<br />
-                10:30 AM — Main Impact Service
+                07:00 AM - 08:00 AM — Morning Glory<br />
+                08:00 AM - 09:00 AM — Praise and Worship
+                09:00 AM - 10:00 AM — Bible study
+                10:00 AM - 10:45 AM — Praise and Worship
+                10:45 AM - 11:10 AM — Testimony
+                11:10 AM - 11:30 AM — News
+                11:30 AM - 11:45 AM — Worship
+                11:45 AM - 12:30 PM — Preaching
               </li>
               <li>
                 <span className="block text-white font-bold mb-1">Mid-Week</span>
@@ -63,7 +69,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-red-600" />
-                info@zionharvest.org
+                ezemwima69@gmail.com
               </li>
             </ul>
           </div>
@@ -71,8 +77,9 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-xs font-medium">
-            © 2026 Zion Harvest International Church. All rights reserved. Registered in Kenya.
+            © 2026 Zion Harvest International Church. 
           </p>
+          <a href = "https://davoste.github.io/">By Steve</a>
           <div className="flex gap-8">
             <button className="text-slate-500 hover:text-white text-xs transition-colors">Terms</button>
             <button className="text-slate-500 hover:text-white text-xs transition-colors">Privacy</button>
