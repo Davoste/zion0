@@ -37,7 +37,12 @@ const App: React.FC = () => {
           <div className="pt-40 pb-24 max-w-4xl mx-auto px-4">
             <h1 className="text-5xl font-bold mb-12 serif text-center text-blue-900">Our Story</h1>
             <div className="aspect-video mb-12 rounded-3xl overflow-hidden shadow-2xl border-b-8 border-red-600">
-              <img src="https://images.unsplash.com/photo-1544427928-142ca20488d5?auto=format&fit=crop&q=80&w=1200" alt="Church" className="w-full h-full object-cover" />
+             <img
+  src="/images/pastor.jpeg"
+  alt="Pastor"
+  className="w-full h-full object-cover"
+/>
+
             </div>
             <div className="prose prose-slate lg:prose-xl mx-auto text-slate-700 leading-relaxed">
               <p className="mb-6">
