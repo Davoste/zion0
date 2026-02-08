@@ -10,18 +10,11 @@ const scriptures = [
       '“Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.”',
   },
   {
-    sw: 'Kumbukumbu la Torati 28:1',
+    sw: 'Kumbukumbu la Torati 28:1-2',
     swText:
-      '“Itakuwa utakaposikia sauti ya BWANA, Mungu wako, kwa bidii...”',
+      '“[1]Itakuwa utakaposikia sauti ya BWANA, Mungu wako, kwa bidii, kutunza kuyafanya maagizo yake yote nikuagizayo leo, ndipo BWANA, Mungu wako, atakapokutukuza juu ya mataifa yote ya duniani; [2]na baraka hizi zote zitakujilia na kukupata usikiapo sauti ya BWANA, Mungu wako. ”',
     enText:
-      '“And it shall come to pass, if thou shalt hearken diligently...”',
-  },
-  {
-    sw: 'Kumbukumbu la Torati 28:2',
-    swText:
-      '“Na baraka hizi zote zitakujilia na kukupata...”',
-    enText:
-      '“And all these blessings shall come on thee...”',
+      '“And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth: [2]And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God.”',
   },
 ];
 
