@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               <img
                 src="/images/logozion.png"
                 alt="Zion Harvest Logo"
-                className="w-6 h-6 object-contain"
+                className="w-10 h-10 object-contain"
               />
             </div>
 
