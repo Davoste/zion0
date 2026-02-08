@@ -26,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             className="flex items-center space-x-3 cursor-pointer"
             onClick={() => setActiveTab('home')}
           >
-            <div className=" rounded-full border-2 border-red-600 shadow-md">
+            <div className=" w-10 h-10 rounded-full border-2 border-red-600 shadow-md">
               <img
                 src="/images/logozion.png"
                 alt="Zion Harvest Logo"
