@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
               Raising a generation of impact through the word and power of God under the leadership of <strong>Pastor Ezekiel</strong>. Join our global family as we possess our inheritance in Zion.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Facebook size={20} /></a>
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Instagram size={20} /></a>
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Youtube size={20} /></a>
+              <a href="https://www.facebook.com/groups/2842250872724236/" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Facebook size={20} /></a>
+              <a href="https://www.facebook.com/groups/2842250872724236/" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Instagram size={20} /></a>
+              <a href="https://www.youtube.com/@ezekielmwita2226" className="p-3 bg-white/5 rounded-lg hover:bg-red-600 transition-all"><Youtube size={20} /></a>
             </div>
           </div>
 
