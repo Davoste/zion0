@@ -94,30 +94,32 @@ const SermonList: React.FC = () => {
       </div>
 
      {/* Video Modal */}
-{selectedVideo && (
-  <div className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-2 sm:p-4">
-    {/* Close Button */}
-    <button 
-      onClick={() => setSelectedVideo(null)}
-      className="fixed top-4 right-4 z-[110] text-white bg-black/50 rounded-full p-2 hover:text-red-500 transition-colors"
-      aria-label="Close video"
-    >
-      <X size={28} />
-    </button>
+      {/* Video Modal - Optimized for YouTube Shorts (9:16) */}
+      {selectedVideo && (
+        <div className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-2">
+          {/* Close Button */}
+          <button 
+            onClick={() => setSelectedVideo(null)}
+            className="fixed top-4 right-4 z-[110] text-white bg-black/50 rounded-full p-2 hover:text-red-500 transition-colors"
+            aria-label="Close video"
+          >
+            <X size={28} />
+          </button>
+      
+          {/* Vertical Video Container */}
+          <div className="w-full max-w-sm sm:max-w-md aspect-[9/16] rounded-2xl overflow-hidden bg-black shadow-2xl">
+            <iframe 
+              className="w-full h-full"
+              src={`https://www.youtube.com/embed/${selectedVideo}?autoplay=1&rel=0`}
+              title="Sermon Short Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      )}
 
-    {/* Video Container */}
-    <div className="w-full max-w-6xl aspect-video rounded-xl overflow-hidden bg-black shadow-2xl">
-      <iframe 
-        className="w-full h-full"
-        src={`https://www.youtube.com/embed/${selectedVideo}?autoplay=1&rel=0`}
-        title="Sermon Video"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
-  </div>
-)}
 
     </section>
   );
