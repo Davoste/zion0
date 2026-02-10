@@ -41,10 +41,6 @@ const Footer: React.FC = () => {
                 11:10 AM - 11:30 AM — News <br />
                 11:30 AM - 11:45 AM — Worship <br />
                 11:45 AM - 12:30 PM — Preaching <br />
-                10:45 AM - 11:10 AM — Testimony <br />
-                11:10 AM - 11:30 AM — News <br />
-                11:30 AM - 11:45 AM — Worship <br />
-                11:45 AM - 12:30 PM — Preaching
               </li>
               <li>
                 <span className="block text-white font-bold mb-1">Mid-Week</span>
