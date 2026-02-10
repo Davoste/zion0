@@ -13,7 +13,7 @@ const MOCK_SERMONS: Sermon[] = [
     series: 'Harvest Season',
     description:
       'Understanding the spiritual timing for your breakthrough and the power of consistent seed-sowing.',
-    videoId: 'dQw4w9WgXcQ'
+    videoId: '4ukiHuu6cYM'
   },
   {
     id: '2',
@@ -24,7 +24,7 @@ const MOCK_SERMONS: Sermon[] = [
     series: 'International Mandate',
     description:
       'How to expand your influence and fulfill your God-given purpose on a global stage.',
-    videoId: 'dQw4w9WgXcQ'
+    videoId: 'gbcsMxB3lHM'
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ const MOCK_SERMONS: Sermon[] = [
     series: 'Kingdom Power',
     description:
       'Rediscovering your authority in Christ and reclaiming lost territories in your personal life.',
-    videoId: 'dQw4w9WgXcQ'
+    videoId: 'EdzaoXrbasY'
   }
 ];
 
