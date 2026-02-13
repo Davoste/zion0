@@ -1,11 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-
 import Hero from './components/Hero';
 import ScriptureSection from './components/ScriptureSection';
 import SermonList from './components/SermonList';
 import EventCalendar from './components/EventCalendar';
+import AboutSection from './components/AboutSection';
+import GiveSection from './components/GiveSection';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
@@ -26,6 +27,8 @@ const App: React.FC = () => {
             <SermonList />
             <EventCalendar />
             <Gallery />
+            <AboutSection />
+            <GiveSection />
           </div>
         );
       case 'sermons':
