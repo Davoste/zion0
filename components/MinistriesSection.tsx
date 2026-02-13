@@ -30,6 +30,7 @@ const ministries = [
     description:
       "Taking the Gospel beyond the walls of the church and transforming communities.",
     image: "/images/outreach.jpeg"
+  }
 ];
 
 const MinistriesSection: React.FC = () => {
