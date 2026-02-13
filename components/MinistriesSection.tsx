@@ -5,32 +5,31 @@ const ministries = [
     title: "Children Ministry",
     description:
       "Raising a generation grounded in Christ through fun, engaging and Bible-centered learning.",
-    image: "/images/children.jpg",
+    image: "/images/children.jpeg",
   },
   {
     title: "Women Ministry",
     description:
       "Empowering women to walk boldly in purpose, leadership, and spiritual maturity.",
-    image: "/images/women.jpg",
+    image: "/images/women.jpeg",
   },
   {
     title: "Music & Worship Ministry",
     description:
       "Leading the congregation into powerful worship experiences through music and creativity.",
-    image: "/images/music.jpg",
+    image: "/images/music.jpeg",
   },
   {
     title: "Youth Ministry",
     description:
       "Equipping young people to impact society with faith, excellence, and leadership.",
-    image: "/images/youth.jpg",
+    image: "/images/youth.jpeg",
   },
   {
     title: "Evangelism & Outreach",
     description:
       "Taking the Gospel beyond the walls of the church and transforming communities.",
-    image: "/images/outreach.jpg",
-  },
+    image: "/images/outreach.jpeg"
 ];
 
 const MinistriesSection: React.FC = () => {
