@@ -6,6 +6,7 @@ import ScriptureSection from './components/ScriptureSection';
 import SermonList from './components/SermonList';
 import EventCalendar from './components/EventCalendar';
 import AboutSection from './components/AboutSection';
+import MinistriesSection from './components/MinistriesSection';
 import GiveSection from './components/GiveSection';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
@@ -27,6 +28,7 @@ const App: React.FC = () => {
             <SermonList />
             <EventCalendar />
             <Gallery />
+            <MinistriesSection />
             <AboutSection />
             <GiveSection />
           </div>
