@@ -27,10 +27,10 @@ const App: React.FC = () => {
             <ScriptureSection />
             <SermonList />
             <EventCalendar />
-            <Gallery />
             <MinistriesSection />
             <AboutSection />
             <GiveSection />
+            <Gallery />
           </div>
         );
       case 'sermons':
