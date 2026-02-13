@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
             © 2026 Zion Harvest International Church. 
           </p>
           <p className="text-slate-500 text-xs font-medium">
-            <a href = "https://davoste.github.io/">Made By Steve</a>
+            <a href = "https://davoste.github.io/">Made with ❤ By Steve</a>
           </p>
           <div className="flex gap-8">
             <button className="text-slate-500 hover:text-white text-xs transition-colors">Terms</button>
